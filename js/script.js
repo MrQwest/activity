@@ -3,14 +3,14 @@
 $.getJSON('activ.json', function(data) {
   var items = [];
  
-  $.each(data, function(name, loc) {
-    items.push('<li id="' + name + '">'+ name + ', ' + loc + '</li>');
-  });
+//  $.each(data, function(name, loc) {
+//    items.push('<li id="' + name + '">'+ name + ', ' + loc + '</li>');
+//  });
  
-  $('<ul/>', {
-    'class': 'my-new-list',
-    html: items.join('')
-  }).appendTo('body');
+//  $('<ul/>', {
+//    'class': 'my-new-list',
+//    html: items.join('')
+//  }).appendTo('body');
 });
 
-console.log(activity);
+console.log(items);
