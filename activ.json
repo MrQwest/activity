@@ -1,16 +1,5 @@
 {
-    "activity": [
-        { 
-            "name":"Chessington",
-            "loc":"KT9 2NE" 
-            }, 
-        { 
-            "name":"Hobbledown", 
-            "loc":"KT19 8PT" 
-            }, 
-        {   
-            "name":"Godstone Farm",
-            "loc":"RH9 8LX" 
-        }
-    ]  
+    "Chessington": "KT9 2NE",
+    "Hobbledown": "KT19 8PT",
+    "Godstone Farm": "RH9 8LX"
 }
