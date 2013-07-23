@@ -3,6 +3,7 @@
 
 /* VARIABLES =================================== */
 
+$color: #61d581;
 
 
 /* MIXINS ====================================== */
@@ -18,3 +19,22 @@
 }
 
 /* SITE STYLES ================================= */
+
+html {
+	background-color: lighten($color,30%);
+	font-family: georgia, serif;
+}
+
+ul {
+	text-align: center;
+	padding: 3em;
+	li {
+		font-weight: bold;
+		font-size: 2em;
+		line-height: 2em;
+		a {
+			color: darken($color,40%);
+
+		}
+	}
+}
