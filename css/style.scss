@@ -27,10 +27,10 @@ html {
 
 ul {
 	text-align: center;
-	padding: 3em;
+	padding: 3em 0.5em;
 	li {
 		font-weight: bold;
-		font-size: 4em;
+		font-size: 2.5em;
 		line-height: 2em;
 		a {
 			color: darken($color,40%);
@@ -55,4 +55,12 @@ ul {
     	color: darken($color, 40%);
     	text-shadow: 1px 1px 0 rgba(lighten($color, 20%),0.8);
     }
+}
+
+#addloc {
+	padding: 1em;
+	text-align:center;
+	input {
+		border-radius: 0.2em;
+	}
 }

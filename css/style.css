@@ -55,11 +55,11 @@ html {
 
 ul {
   text-align: center;
-  padding: 3em;
+  padding: 3em 0.5em;
 }
 ul li {
   font-weight: bold;
-  font-size: 4em;
+  font-size: 2.5em;
   line-height: 2em;
 }
 ul li a {
@@ -82,4 +82,12 @@ ul li a {
 .refresh:visited {
   color: #165427;
   text-shadow: 1px 1px 0 rgba(178, 234, 193, 0.8);
+}
+
+#addloc {
+  padding: 1em;
+  text-align: center;
+}
+#addloc input {
+  border-radius: 0.2em;
 }
