@@ -30,7 +30,7 @@ ul {
 	padding: 3em;
 	li {
 		font-weight: bold;
-		font-size: 2em;
+		font-size: 4em;
 		line-height: 2em;
 		a {
 			color: darken($color,40%);
@@ -39,7 +39,7 @@ ul {
 	}
 }
 
-#refresh {
+.refresh {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -49,4 +49,10 @@ ul {
     font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
+   	color: darken($color, 40%);
+   	text-shadow: 1px 1px 0 rgba(lighten($color, 20%),0.8);
+    &:visited {
+    	color: darken($color, 40%);
+    	text-shadow: 1px 1px 0 rgba(lighten($color, 20%),0.8);
+    }
 }

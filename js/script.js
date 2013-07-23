@@ -3,6 +3,15 @@
 // lets set up some variables
 var newloc = '';
 
+// When ready... /via http://davidwalsh.name/hide-address-bar
+window.addEventListener("load",function() {
+  // Set a timeout...
+  setTimeout(function(){
+    // Hide the address bar!
+    window.scrollTo(0, 1);
+  }, 0);
+});
+
 // grab the JSON file
 $.getJSON('activ.json', function(data) {
 	

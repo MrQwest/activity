@@ -59,14 +59,14 @@ ul {
 }
 ul li {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 4em;
   line-height: 2em;
 }
 ul li a {
   color: #165427;
 }
 
-#refresh {
+.refresh {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -76,4 +76,10 @@ ul li a {
   font-size: 1.3em;
   font-weight: bold;
   text-decoration: none;
+  color: #165427;
+  text-shadow: 1px 1px 0 rgba(178, 234, 193, 0.8);
+}
+.refresh:visited {
+  color: #165427;
+  text-shadow: 1px 1px 0 rgba(178, 234, 193, 0.8);
 }
