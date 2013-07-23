@@ -11,6 +11,7 @@ $.getJSON('activ.json', function(data) {
  
   // for each item in the json file, create as a html list item 
   $.each(data, function(name, loc) {
+    // the comgooglemaps ref takes the postcode and searches it on the Google maps app - BOSH!
     items.push('<li id="' + name + '">'+ name + '</br> <a href="comgooglemaps://?q='+ loc +'" >' + loc + '</li>');
   });
 
