@@ -31,10 +31,11 @@ ul {
 	li {
 		font-weight: bold;
 		font-size: 2.5em;
-		line-height: 2em;
-		a {
+		line-height: 1.4;
+		a, a:visited {
 			color: darken($color,40%);
-
+			text-decoration: none;
+			line-height: 4em;
 		}
 	}
 }
@@ -62,5 +63,20 @@ ul {
 	text-align:center;
 	input {
 		border-radius: 0.2em;
+		width: 45%;
+		padding: 2%;
+		margin: 2%;
+	}
+	input[type="submit"] {
+		display: block;
+		width: 30%;
+		margin: 1em auto;
+		border-radius: 0.2em;
+		background-color: $color;
+		border:1px solid darken($color, 10%);
+		box-shadow: 0 0 1em rgba(darken($color, 20%),0.2);
+		font-weight: bold;
+		color: darken($color, 40%);
+		text-shadow: 1px 1px 0 rgba(lighten($color, 20%),0.8);
 	}
 }
