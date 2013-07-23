@@ -21,6 +21,7 @@
 	<meta name="MobileOptimized" content="320">
 	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="icon" type="image/png" href="favicon.png" />
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 </head>
