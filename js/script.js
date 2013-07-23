@@ -46,6 +46,9 @@ $("#addLoc").on( "submit", function( event ) {
     }).done(function() {
       $(this).addClass("done");
     });
+
+    $('#inputname').val("");
+    $('#inputlocation').val("");
 });
 
 

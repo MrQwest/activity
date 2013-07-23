@@ -27,8 +27,8 @@
 	
 
 	<form id='addLoc'>
-	    <input type='text' name='name' id='inputname' />
-	    <input type='text' name='postcode' id='inputlocation' />
+	    <input type='text' name='name' id='inputname' placeholder="Name" />
+	    <input type='text' name='postcode' id='inputlocation' placeholder="Postcode" />
 	    <input type='submit' value='go'>
 	</form>
 
