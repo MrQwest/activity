@@ -29,7 +29,7 @@
 	<form id='addLoc'>
 	    <input type='text' name='name' id='inputname' placeholder="Name" />
 	    <input type='text' name='postcode' id='inputlocation' placeholder="Postcode" />
-	    <input type='submit' value='go'>
+	    <input type='submit' value='add'>
 	</form>
 
 	<script type="text/javascript" src="js/script.js"></script>
