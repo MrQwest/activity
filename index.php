@@ -32,6 +32,8 @@
 	    <input type='submit' value='add'>
 	</form>
 
+	<a href="/refresh" class="refresh" id="refresh">Another one</a>
+
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

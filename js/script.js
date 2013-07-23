@@ -52,5 +52,7 @@ $("#addLoc").on( "submit", function( event ) {
     $('#inputlocation').val("");
 });
 
-
-
+$('#refresh').on("click", function (event) {
+  event.preventDefault();
+  location.reload();
+})

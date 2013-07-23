@@ -65,3 +65,15 @@ ul li {
 ul li a {
   color: #165427;
 }
+
+#refresh {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 4em;
+  background-color: #31b856;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: none;
+}
