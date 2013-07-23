@@ -2,9 +2,15 @@ SITE DEVELOPMENT
 
     Anthony Killeen ~ Designer/developer ~ @mrqwest
 
+ADDITIONAL HELP
+
+	Mike Street ~ All round clever dude ~ @mikestreety
+
 
 SITE
 
     HTML
     (S)CSS
+    JS
+    PHP
     
