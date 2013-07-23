@@ -6,6 +6,10 @@ I've got a few days at home with the kids this week and wanted a random actitivy
 
 ## To-do
 
-* Take form input from index, parse results and write to activ.json
 * Style
 * Add a big green refresh button to the page for kiddie-friendly refreshes.
+* Edit button which will display all JSON activities and allows to delete items
+* Mark activities as done
+
+## Done
+* Take form input from index, parse results and write to activ.json (Thanks @mikestreety)
