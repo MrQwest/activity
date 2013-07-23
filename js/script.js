@@ -11,7 +11,7 @@ $.getJSON('activ.json', function(data) {
  
   // for each item in the json file, create as a html list item 
   $.each(data, function(name, loc) {
-    items.push('<li id="' + name + '">'+ name + ', ' + loc + '</li>');
+    items.push('<li id="' + name + '">'+ name + '</br> <a href="comgooglemaps://?q='+ loc +'" >' + loc + '</li>');
   });
 
   // randloc = Random Location
