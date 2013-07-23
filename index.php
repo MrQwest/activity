@@ -19,7 +19,7 @@
 	<script src="js/jquery-2.0.3.min.js"></script>
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+	<meta name="viewport" content="target-densitydpi=160dpi, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<link rel="icon" type="image/png" href="favicon.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-retina.png" />
