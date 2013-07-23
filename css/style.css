@@ -84,10 +84,10 @@ ul li a {
   text-shadow: 1px 1px 0 rgba(178, 234, 193, 0.8);
 }
 
-#addloc {
+#addLoc {
   padding: 1em;
   text-align: center;
 }
-#addloc input {
+#addLoc input {
   border-radius: 0.2em;
 }
